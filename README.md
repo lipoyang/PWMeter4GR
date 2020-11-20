@@ -97,7 +97,7 @@ Restarts mesurement.
 
 <br>
 
-## Notes (for GR=CITRUS)
+## Notes (for GR-CITRUS)
 This class uses MTUs (Multi function timer pulse units). Therefore, it conflicts with PWM output (Servo library and analogWrite) of pin 0 and 11. Timer resouces used by Servo library and analogWrite are shown below.
 - 0: MTU1 (conflicts with pulse width meter of pin 0, 1)
 - 1: TPU3
@@ -107,7 +107,7 @@ This class uses MTUs (Multi function timer pulse units). Therefore, it conflicts
 - 11: MTU3 (conflicts with pulse width meter of pin 2, 3, 4, 10, 11, 12, 13)
 - others: TPU2
 
-## Notes (for GR=ROSE)
+## Notes (for GR-ROSE)
 This class uses MTUs (Multi function timer pulse units). Therefore, it conflicts with PWM output (Servo library and analogWrite) of pin 10 and 13. Timer resouces used by Servo library and analogWrite are shown below.
 - 3: TPU5
 - 7: TPU0
