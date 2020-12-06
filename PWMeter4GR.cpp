@@ -1,4 +1,10 @@
-#include "Arduino.h"
+#ifdef GRCITRUS
+//#include "rx63n/util.h"
+//#include "rx63n/iodefine.h"
+//#include "rx63n/specific_instructions.h"
+#include "rx63n/interrupt_handlers.h"
+#endif
+
 #include "PWMeter4GR.h"
 
 // edge detection setting
